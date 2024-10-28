@@ -144,7 +144,7 @@ header{
 }
 .slidertext{
     position: absolute;
-    top: 14.5%;
+    top: 10.5%;
     right: 0;
     width: 25%;
     font-size: 80px;
@@ -166,12 +166,16 @@ header{
     margin: 5% 0;
 }
 .sliderdate{
+    position: relative;
+    top: 1rem;
     font-size: 16px;
-    margin-bottom: 2%;
 }
 .sliderdescription{
     display: flex;
     flex-direction: row;
+}
+.sliderdescription .para1{
+    margin-top: 5%;
 }
 .sliderdescription .more{
     background-color: black;
@@ -185,11 +189,15 @@ header{
     text-decoration: none;
     font-weight: 300;
     margin-top: 70%;
+    position: relative;
+    bottom: 1.5rem;
 }
 .sliderdescription p:nth-child(1){
     display: flex;
     flex-direction: column;
     font-weight: bold;
+    position: relative;
+    top: 2rem;
 }
 .sliderdescription p{
     margin-right: 48px;
@@ -207,11 +215,11 @@ header{
 .sliderarrow{
     position: absolute;
     right: 9.8%;
-    top: 55vh;
+    top: 51.6vh;
     display: flex;
 }
 .sliderarrow button{
-    padding: 14px 20px;
+    padding: 10px 20px;
     margin: 0;
     font-size: 32px;
     border-radius: 0;
@@ -333,17 +341,21 @@ img{
     position: relative;
     width: 40%;
 }
+.secondnewsdescription1{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-left: 5%;
+    position: relative;
+    width: 40%;
+}
 .secondnewsdescription p{
     position: relative;
-    top: 20px;
+    top: 1.3rem;
 }
-.secondnewspara2{
-    position: relative; 
-    top: 50px;
-}
-.secondnews2para2{
+.secondnewsdescription1 p{
     position: relative;
-    top: 30px;
+    top: 1.5rem;
 }
 .secondnewsdescription::before{
     content: "";
@@ -351,6 +363,14 @@ img{
     top: -10%;
     width: 100%;
     height: 7px;
+    background-color: black;
+}
+.secondnewsdescription1::before{
+    content: "";
+    position: absolute;
+    top: -10.1%;
+    width: 100%;
+    height: 7.5px;
     background-color: black;
 }
 .secondnewsdate{
@@ -372,7 +392,7 @@ img{
     text-decoration: none;
     font-weight: 300;
 }
-.secondnewsdescription .more1{
+.secondnewsdescription1 .more1{
     position: relative;
     top: 50px;
     background-color: black;
