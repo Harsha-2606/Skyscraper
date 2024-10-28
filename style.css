@@ -417,16 +417,12 @@ img{
     font-weight: bolder;
     font-size: small;
 }
-.section4date{
-    position: relative;
-    bottom: 12px;
-}
 .section4part1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
-    height: 35vh;
+    height: 25vh;
     margin-right: 10%;
     position: relative;
     margin-left: 2%;
@@ -437,12 +433,10 @@ img{
     width: 30%;
     height: 7px;
     background-color: black;
-    top: -18%;
+    top: -27%;
 }
 .section4part1 .more{
     background-color: black;
-    position: relative;
-    top: 35px;
     color: white;
     border: none;
     padding: 6.4px 16px 3.2px;
@@ -466,28 +460,18 @@ img{
     top: -27%;
     right: 5%;
     padding: 5%;
-    width: 50%;
+    width: 40%;
     position: absolute;
     border: 5px solid black;
-    font-size: 64px;
-    line-height: 56px;
+    font-size: 4rem;
+    line-height: 3.5rem;
     font-weight: 900;
     text-transform: uppercase;
 }
-.prize{
-    font-size: 75px;
-}
-.s4p1{
-    position: relative; 
-    top: 10px;
-}
-.s4p2{
-    position: relative; 
-    top: 23px;
-}
 .section4floattext span{
     position: relative;
-    font-size: 48px;
+    font-size: 3rem;
+    right: 1.3rem;
 }
 footer{
     display: flex;
@@ -562,9 +546,7 @@ footer{
     top: -40%;
 }
 .news p{
-    font-size: 12.8px;
-    width: 120%;
-    margin: 0;
+    font-size: 0.8rem;
     margin-top: 12%;
 }
 .subscribe{
@@ -576,9 +558,9 @@ footer{
 .subscribe input{
     border: none;
     background-color: transparent;
-    padding: 16px;
+    padding: 1rem;
     padding-right: 0;
-    width: max-content;
+    width: 65%;
 }
 .subscribe button{
     display: flex;
@@ -588,9 +570,9 @@ footer{
     border-radius: 0;
     border: none;
     color: white;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 29%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 35%;
     cursor: pointer;
 }
 .socialmedia{
