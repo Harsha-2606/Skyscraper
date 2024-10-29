@@ -211,11 +211,12 @@ header{
     border: 5px solid black;
     font-size: 38.4px;
     font-weight: 900;
+    height: 13rem;
 }
 .sliderarrow{
     position: absolute;
     right: 9.8%;
-    top: 51.6vh;
+    top: 54.3vh;
     display: flex;
 }
 .sliderarrow button{
@@ -339,7 +340,7 @@ img{
     justify-content: baseline;
     margin-left: 5%;
     position: relative;
-    width: 40%;
+    width: 35%;
 }
 .secondnewsdescription1{
     display: flex;
@@ -347,7 +348,7 @@ img{
     justify-content: baseline;
     margin-left: 5%;
     position: relative;
-    width: 40%;
+    width: 35%;
 }
 .secondnewsdescription p{
     position: relative;
@@ -355,22 +356,22 @@ img{
 }
 .secondnewsdescription1 p{
     position: relative;
-    top: 1.5rem;
+    top: 3.75rem;
 }
 .secondnewsdescription::before{
     content: "";
-    position: absolute;
-    top: -10%;
+    position: relative;
+    top: -2rem;
     width: 100%;
-    height: 7px;
+    height: 8px;
     background-color: black;
 }
 .secondnewsdescription1::before{
     content: "";
-    position: absolute;
-    top: -10.1%;
+    position: relative;
+    top: -2rem;
     width: 100%;
-    height: 7.5px;
+    height: 8px;
     background-color: black;
 }
 .secondnewsdate{
@@ -379,9 +380,12 @@ img{
     margin: 8%;
     margin-top: 0;
 }
+.secondnewspara2{
+    margin-top: 1.5rem;
+}
 .secondnewsdescription .more{
     position: relative;
-    top: 70px;
+    top: 3rem;
     background-color: black;
     color: white;
     border: none;
@@ -394,7 +398,7 @@ img{
 }
 .secondnewsdescription1 .more1{
     position: relative;
-    top: 50px;
+    top: 5.5rem;
     background-color: black;
     color: white;
     border: none;
@@ -430,7 +434,7 @@ img{
 }
 .section4sidetext{
     left: -6%;
-    top: 29%;
+    top: 26%;
     position: absolute;
     rotate: -90deg;
     text-transform: uppercase;
@@ -447,13 +451,28 @@ img{
     position: relative;
     margin-left: 2%;
 }
+.section4part1 h3{
+    position: relative;
+    bottom: 2rem;
+}
+.section4part1 p{
+    position: relative;
+    bottom: 1.5rem;
+}
+.section4para2{
+    margin-top: 1.3rem;
+}
+.section4date{
+    position: relative;
+    bottom: 3rem;
+}
 .section4part1::before{
     content: "";
     position: absolute;
     width: 30%;
     height: 7px;
     background-color: black;
-    top: -27%;
+    top: -42%;
 }
 .section4part1 .more{
     background-color: black;
@@ -518,18 +537,19 @@ footer{
     border-right: 1px solid #6a6a6a;
     padding: 3%;
     padding-top: 0;
-    width: 30%;
+    width: 25%;
     height: 225px;
+    font-style: normal;
 }
 .footerpart1 h3{
     position: absolute;
     top: -25%;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 .footerpart1 span{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 .footerpart1 h4{
     margin-bottom: 5%;
